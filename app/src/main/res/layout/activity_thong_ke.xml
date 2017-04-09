@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_thong_ke"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="trangtrunghoangphuc.moneymanager.ThongKeActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtThoiGian"
+            android:textSize="18sp"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@drawable/quit"
+            android:id="@+id/btnThoat"
+            android:onClick="xuLyThoat"/>
+    </LinearLayout>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTongThang"
+        android:textSize="18sp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvThongKe" />
+</LinearLayout>
