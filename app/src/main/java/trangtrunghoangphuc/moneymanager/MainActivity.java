@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     EditText txtTien;
     ImageButton btnDatePicker;
     Button btnThayDoiActiviy,btnThemTien,btnThongKe;
+    EditText Test;
     final int requestCodeActivity=1;
     final int thayDoiTaiKhoanResultCode=3;
     Calendar cal=Calendar.getInstance();
